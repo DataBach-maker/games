@@ -1,0 +1,1836 @@
+2023.10.24 10:06:30 INFO  Started: Metals version 1.1.0 in folders '/home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search' for client Visual Studio Code 1.83.1.
+2023.10.24 10:06:32 WARN  Build server is not auto-connectable.
+Oct 24, 2023 10:06:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 24, 2023 10:06:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 24, 2023 10:06:35 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 24, 2023 10:06:35 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 24, 2023 10:06:40 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 24, 2023 10:06:40 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 24, 2023 10:07:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 24, 2023 10:07:02 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.24 10:07:12 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/CubeCalculator.scala
+Oct 24, 2023 10:07:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Oct 24, 2023 10:07:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2023.10.24 10:07:18 INFO  no build target found for /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/CubeCalculator.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.24 10:07:18 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/CubeCalculatorTest.scala
+2023.10.24 10:07:20 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/CubeCalculatorTest.scala
+Oct 24, 2023 10:07:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/CubeCalculatorTest.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/CubeCalculatorTest.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/CubeCalculatorTest.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.10.24 10:07:21 INFO  time: code lens generation in 3.09s
+2023.10.24 10:07:21 INFO  time: code lens generation in 3.08s
+2023.10.24 10:07:32 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13827525331910103031/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.10.24 10:07:32 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/project/project/metals.sbt
+2023.10.24 10:07:32 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/project/metals.sbt
+2023.10.24 10:07:32 INFO  skipping build import with status 'Started'
+2023.10.24 10:07:35 INFO  [info] welcome to sbt 1.9.6 (Ubuntu Java 11.0.20.1)
+2023.10.24 10:07:41 INFO  [info] loading settings for project linear-search-build-build from metals.sbt ...
+2023.10.24 10:07:43 INFO  [info] loading project definition from /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/project/project
+2023.10.24 10:07:49 INFO  [info] loading settings for project linear-search-build from metals.sbt ...
+2023.10.24 10:07:49 INFO  [info] loading project definition from /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/project
+2023.10.24 10:07:57 INFO  [success] Generated .bloop/linear-search-build.json
+2023.10.24 10:07:57 INFO  [success] Total time: 8 s, completed Oct 24, 2023, 10:07:57 AM
+2023.10.24 10:08:03 INFO  [info] loading settings for project root from build.sbt ...
+2023.10.24 10:08:03 INFO  [info] set current project to scalatest-example (in build file:/home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/)
+2023.10.24 10:08:05 INFO  [success] Generated .bloop/root-test.json
+2023.10.24 10:08:05 INFO  [success] Generated .bloop/root.json
+2023.10.24 10:08:05 INFO  [success] Total time: 1 s, completed Oct 24, 2023, 10:08:05 AM
+2023.10.24 10:08:06 INFO  time: ran 'sbt bloopInstall' in 33s
+2023.10.24 10:08:06 INFO  Attempting to connect to the build server...
+2023.10.24 10:08:06 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/ariane/.bloop/bloop.json
+2023.10.24 10:08:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/bsp.trace.json or /home/ariane/.cache/metals/bsp.trace.json
+2023.10.24 10:08:06 INFO  Attempting to connect to the build server...
+2023.10.24 10:08:06 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/ariane/.bloop/bloop.json
+2023.10.24 10:08:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/project/.metals/bsp.trace.json or /home/ariane/.cache/metals/bsp.trace.json
+2023.10.24 10:08:06 INFO  time: Connected to build server in 0.79s
+2023.10.24 10:08:06 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.24 10:08:18 INFO  time: indexed workspace in 11s
+2023.10.24 10:50:26 INFO  compiling root (1 scala source)
+2023.10.24 10:50:27 INFO  time: compiled root in 1.22s
+2023.10.24 10:50:27 INFO  compiling root-test (1 scala source)
+2023.10.24 10:50:27 INFO  time: compiled root-test in 0.97s
+2023.10.24 10:50:50 INFO  time: code lens generation in 5.15s
+2023.10.24 10:50:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 10:50:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 10:50:53 INFO  Starting debug proxy for [CubeCalculatorTest()]
+2023.10.24 10:50:54 INFO  Trying to attach to remote debuggee VM localhost:41501 .
+2023.10.24 10:50:54 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 10:50:56 INFO  Canceling debug proxy for [CubeCalculatorTest()]
+2023.10.24 10:50:56 INFO  Closing debug server tcp://0.0.0.0:35421
+2023.10.24 10:53:10 INFO  compiling root (1 scala source)
+2023.10.24 10:53:11 INFO  compiling root-test (1 scala source)
+2023.10.24 10:53:11 INFO  time: compiled root in 1.13s
+2023.10.24 10:53:11 INFO  time: compiled root-test in 0.66s
+Oct 24, 2023 11:00:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 518
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.14/scalafmt-core_2.13-3.7.14.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.14/scalafmt-core_2.13-3.7.14.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.14/scalafmt-sysops_2.13-3.7.14.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.14/scalafmt-config_2.13-3.7.14.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.14/scalafmt-sysops_2.13-3.7.14.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.14/scalafmt-config_2.13-3.7.14.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.14/scalafmt-sysops_2.13-3.7.14.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.14/scalafmt-core_2.13-3.7.14.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.14/scalafmt-config_2.13-3.7.14.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.14/scalafmt-config_2.13-3.7.14.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.14/scalafmt-sysops_2.13-3.7.14.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.14/scalafmt-core_2.13-3.7.14.jar
+2023.10.24 11:04:38 ERROR scalafmt: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/Search.scala:6: error: [dialect scala213] ) expected but else found
+    } else {
+      ^
+2023.10.24 11:10:22 ERROR scalafmt: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/Search.scala:11: error: [dialect scala213] } expected but end of file found
+
+^
+2023.10.24 11:10:46 ERROR scalafmt: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/Search.scala:13: error: [dialect scala213] } expected but end of file found
+
+^
+Oct 24, 2023 11:12:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1324
+Oct 24, 2023 11:12:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1336
+Oct 24, 2023 11:14:18 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/CubeCalculator.scala
+java.nio.file.NoSuchFileException: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/CubeCalculator.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:383)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:270)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:190)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:190)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:190)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:58)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:463)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:501)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:542)
+	at scala.meta.internal.metals.DefinitionProvider.definitionResult$1(DefinitionProvider.scala:353)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definitionFromSnapshot$2(DefinitionProvider.scala:359)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.definitionFromSnapshot(DefinitionProvider.scala:359)
+	at scala.meta.internal.metals.DefinitionProvider.definition(DefinitionProvider.scala:92)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definitionResult$1(MetalsLspService.scala:2523)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.definitionResult(MetalsLspService.scala:2523)
+	at scala.meta.internal.metals.MetalsLspService.definitionOrReferences(MetalsLspService.scala:2494)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definition$1(MetalsLspService.scala:1363)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.definition(MetalsLspService.scala:1362)
+	at scala.meta.internal.metals.WorkspaceLspService.definition(WorkspaceLspService.scala:354)
+	at scala.meta.metals.lsp.DelegatingScalaService.definition(DelegatingScalaService.scala:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Oct 24, 2023 11:14:18 AM scala.meta.internal.mtags.SymbolIndexBucket addMtagsSourceFile
+WARNING: Error indexing /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/CubeCalculator.scala
+java.nio.file.NoSuchFileException: /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/CubeCalculator.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:383)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:270)
+	at scala.meta.internal.mtags.SymbolIndexBucket.addMtagsSourceFile(SymbolIndexBucket.scala:286)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1(SymbolIndexBucket.scala:190)
+	at scala.meta.internal.mtags.SymbolIndexBucket.$anonfun$query0$1$adapted(SymbolIndexBucket.scala:190)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:210)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query0(SymbolIndexBucket.scala:190)
+	at scala.meta.internal.mtags.SymbolIndexBucket.query(SymbolIndexBucket.scala:163)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.$anonfun$findSymbolDefinition$1(OnDemandSymbolIndex.scala:141)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.findSymbolDefinition(OnDemandSymbolIndex.scala:141)
+	at scala.meta.internal.mtags.OnDemandSymbolIndex.definitions(OnDemandSymbolIndex.scala:58)
+	at scala.meta.internal.metals.DestinationProvider.definition(DefinitionProvider.scala:463)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:501)
+	at scala.meta.internal.metals.DestinationProvider.fromSymbol(DefinitionProvider.scala:542)
+	at scala.meta.internal.metals.DefinitionProvider.definitionResult$1(DefinitionProvider.scala:353)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$definitionFromSnapshot$2(DefinitionProvider.scala:359)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.definitionFromSnapshot(DefinitionProvider.scala:359)
+	at scala.meta.internal.metals.DefinitionProvider.definition(DefinitionProvider.scala:92)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definitionResult$1(MetalsLspService.scala:2523)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.definitionResult(MetalsLspService.scala:2523)
+	at scala.meta.internal.metals.MetalsLspService.definitionOrReferences(MetalsLspService.scala:2494)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definition$1(MetalsLspService.scala:1363)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.definition(MetalsLspService.scala:1362)
+	at scala.meta.internal.metals.WorkspaceLspService.definition(WorkspaceLspService.scala:354)
+	at scala.meta.metals.lsp.DelegatingScalaService.definition(DelegatingScalaService.scala:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2023.10.24 11:14:18 WARN  Using indexes to guess the definition of cube
+2023.10.24 11:14:19 WARN  Using indexes to guess the definition of CubeCalculator
+2023.10.24 11:14:38 WARN  Using indexes to guess the definition of CubeCalculator
+2023.10.24 11:16:47 INFO  compiling root (1 scala source)
+2023.10.24 11:16:48 INFO  time: compiled root in 1.91s
+2023.10.24 11:16:48 INFO  compiling root-test (1 scala source)
+2023.10.24 11:16:48 INFO  time: compiled root-test in 0.37s
+2023.10.24 11:16:49 INFO  {
+  "jsonrpc": "2.0",
+  "id": "62",
+  "error": {
+    "code": -32603,
+    "message": "Compilation not successful"
+  }
+}
+Oct 24, 2023 11:16:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:404)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:404)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:379)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.10.24 11:16:49 ERROR failed: Starting debug server
+scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$9(BuildServerConnection.scala:404)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:404)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:379)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+Oct 24, 2023 11:16:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Oct 24, 2023 11:16:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Oct 24, 2023 11:16:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Oct 24, 2023 11:16:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Oct 24, 2023 11:16:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.10.24 11:18:43 INFO  compiling root-test (1 scala source)
+2023.10.24 11:18:43 INFO  time: compiled root-test in 0.34s
+Oct 24, 2023 11:18:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.10.24 11:18:51 INFO  compiling root-test (1 scala source)
+2023.10.24 11:18:51 INFO  time: compiled root-test in 0.1s
+Oct 24, 2023 11:18:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.10.24 11:18:51 INFO  compiling root-test (1 scala source)
+2023.10.24 11:18:52 INFO  time: compiled root-test in 66ms
+Oct 24, 2023 11:18:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.10.24 11:19:34 ERROR Failed to tokenize input for semantic tokens for /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala
+scala.meta.tokenizers.TokenizeException: <input>:3: error: unclosed character literal
+    assert(LinearSearch.search([1,2,3], ''
+                                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.24 11:19:57 INFO  compiling root-test (1 scala source)
+2023.10.24 11:19:57 INFO  time: compiled root-test in 80ms
+2023.10.24 11:20:14 ERROR Failed to tokenize input for semantic tokens for /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala
+scala.meta.tokenizers.TokenizeException: <input>:3: error: can't use unescaped LF in character literals
+    assert(LinearSearch.search([1,2,3], 2) )== '
+                                                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+something's wrong: no file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala in Array[<error>]RangePosition(file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala, 110, 110, 125)
+something's wrong: no file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala in Array[<error>]RangePosition(file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala, 110, 110, 120)
+something's wrong: no file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala in Array[<error>]RangePosition(file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala, 110, 110, 119)
+something's wrong: no file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala in Array[<error>]RangePosition(file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala, 110, 110, 118)
+something's wrong: no file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala in Array[<error>]RangePosition(file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala, 110, 110, 125)
+something's wrong: no file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala in Array[<error>]RangePosition(file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala, 110, 110, 118)
+something's wrong: no file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala in Array[Int]RangePosition(file:///home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala, 110, 110, 120)
+2023.10.24 11:24:32 INFO  compiling root-test (1 scala source)
+2023.10.24 11:24:32 INFO  time: compiled root-test in 0.47s
+Oct 24, 2023 11:24:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.10.24 11:24:32 INFO  compiling root-test (1 scala source)
+2023.10.24 11:24:33 INFO  time: compiled root-test in 0.44s
+2023.10.24 11:26:21 INFO  compiling root-test (1 scala source)
+2023.10.24 11:26:21 INFO  time: compiled root-test in 0.17s
+2023.10.24 11:26:21 INFO  compiling root-test (1 scala source)
+2023.10.24 11:26:21 INFO  time: compiled root-test in 0.62s
+2023.10.24 11:26:25 INFO  compiling root-test (1 scala source)
+2023.10.24 11:26:25 INFO  time: compiled root-test in 0.21s
+Oct 24, 2023 11:26:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.10.24 11:28:10 INFO  compiling root-test (1 scala source)
+2023.10.24 11:28:10 INFO  time: compiled root-test in 0.23s
+Oct 24, 2023 11:28:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.10.24 11:28:10 INFO  compiling root-test (1 scala source)
+2023.10.24 11:28:10 INFO  time: compiled root-test in 0.28s
+2023.10.24 11:30:54 INFO  compiling root (1 scala source)
+2023.10.24 11:30:57 INFO  time: compiled root in 2.71s
+2023.10.24 11:30:57 INFO  compiling root-test (1 scala source)
+2023.10.24 11:30:59 INFO  time: compiled root-test in 1.58s
+2023.10.24 11:31:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 11:31:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 11:31:03 INFO  Starting debug proxy for [Search()]
+2023.10.24 11:31:04 INFO  Trying to attach to remote debuggee VM localhost:47957 .
+2023.10.24 11:31:04 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 11:31:06 INFO  Canceling debug proxy for [Search()]
+2023.10.24 11:31:06 INFO  Closing debug server tcp://0.0.0.0:44077
+2023.10.24 11:31:19 INFO  compiling root-test (1 scala source)
+2023.10.24 11:31:19 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 1h 23m 13.512s)
+2023.10.24 11:31:19 INFO  compiling root-test (1 scala source)
+2023.10.24 11:31:21 INFO  time: compiled root-test in 1.36s
+2023.10.24 11:31:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 11:31:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 11:31:21 INFO  Starting debug proxy for [Search()]
+2023.10.24 11:31:21 INFO  Trying to attach to remote debuggee VM localhost:48625 .
+2023.10.24 11:31:21 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 11:31:23 INFO  Canceling debug proxy for [Search()]
+2023.10.24 11:31:23 INFO  Closing debug server tcp://0.0.0.0:44769
+2023.10.24 11:32:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 11:32:03 INFO  compiling root (1 scala source)
+2023.10.24 11:32:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 11:32:03 INFO  Starting debug proxy for [Search()]
+2023.10.24 11:32:03 INFO  Trying to attach to remote debuggee VM localhost:39401 .
+2023.10.24 11:32:04 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 11:32:05 INFO  time: compiled root in 2.54s
+2023.10.24 11:32:07 INFO  Canceling debug proxy for [Search()]
+2023.10.24 11:32:07 INFO  Closing debug server tcp://0.0.0.0:34171
+2023.10.24 11:34:34 ERROR Failed to tokenize input for semantic tokens for /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/Search.scala
+scala.meta.tokenizers.TokenizeException: <input>:12: error: Invalid literal number
+        var = 0break()
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:330)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:332)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.24 11:34:51 INFO  compiling root (1 scala source)
+2023.10.24 11:34:51 INFO  time: compiled root in 0.13s
+2023.10.24 11:35:02 INFO  compiling root (1 scala source)
+2023.10.24 11:35:02 INFO  time: compiled root in 0.11s
+2023.10.24 11:35:20 INFO  compiling root (1 scala source)
+2023.10.24 11:35:20 INFO  time: compiled root in 0.11s
+2023.10.24 11:35:31 INFO  compiling root (1 scala source)
+2023.10.24 11:35:31 INFO  time: compiled root in 0.1s
+2023.10.24 11:35:50 INFO  compiling root (1 scala source)
+2023.10.24 11:35:50 INFO  time: compiled root in 85ms
+2023.10.24 11:35:56 INFO  compiling root (1 scala source)
+2023.10.24 11:35:56 INFO  time: compiled root in 0.36s
+2023.10.24 11:36:49 INFO  compiling root (1 scala source)
+2023.10.24 11:36:49 INFO  time: compiled root in 0.23s
+2023.10.24 11:37:01 INFO  compiling root (1 scala source)
+2023.10.24 11:37:01 INFO  time: compiled root in 0.35s
+2023.10.24 11:37:03 INFO  compiling root (1 scala source)
+2023.10.24 11:37:03 INFO  time: compiled root in 0.2s
+2023.10.24 11:37:31 INFO  compiling root (1 scala source)
+2023.10.24 11:37:31 INFO  time: compiled root in 0.27s
+Oct 24, 2023 11:37:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.10.24 11:37:32 INFO  compiling root (1 scala source)
+2023.10.24 11:37:32 INFO  time: compiled root in 94ms
+2023.10.24 11:38:49 INFO  compiling root (1 scala source)
+2023.10.24 11:38:49 INFO  time: compiled root in 0.14s
+2023.10.24 11:39:19 INFO  compiling root (1 scala source)
+2023.10.24 11:39:19 INFO  time: compiled root in 0.14s
+2023.10.24 11:39:19 INFO  compiling root (1 scala source)
+2023.10.24 11:39:19 INFO  time: compiled root in 0.1s
+2023.10.24 11:39:49 INFO  compiling root (1 scala source)
+2023.10.24 11:39:50 INFO  time: compiled root in 1.11s
+2023.10.24 11:39:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 11:39:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 11:39:55 INFO  Starting debug proxy for [Search()]
+2023.10.24 11:39:55 INFO  Trying to attach to remote debuggee VM localhost:41257 .
+2023.10.24 11:39:55 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 11:39:59 INFO  Canceling debug proxy for [Search()]
+2023.10.24 11:39:59 INFO  Closing debug server tcp://0.0.0.0:45723
+2023.10.24 11:40:23 INFO  compiling root-test (1 scala source)
+2023.10.24 11:40:23 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 1h 32m 17.543s)
+2023.10.24 11:40:23 INFO  compiling root-test (1 scala source)
+2023.10.24 11:40:24 WARN  Could not load snapshot text for /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala
+2023.10.24 11:40:26 INFO  time: compiled root-test in 2.06s
+2023.10.24 11:40:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 11:40:26 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 11:40:26 INFO  Starting debug proxy for [Search()]
+2023.10.24 11:40:27 INFO  Trying to attach to remote debuggee VM localhost:51003 .
+2023.10.24 11:40:27 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 11:40:28 INFO  Canceling debug proxy for [Search()]
+2023.10.24 11:40:28 INFO  Closing debug server tcp://0.0.0.0:46777
+2023.10.24 11:40:48 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 1h 32m 42.314s)
+2023.10.24 11:40:48 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 1h 32m 42.331s)
+2023.10.24 11:40:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 11:40:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 11:40:49 INFO  Starting debug proxy for [Search]
+2023.10.24 11:40:49 INFO  Loaded expression compiler in 542 milliseconds
+2023.10.24 11:40:54 INFO  Loaded all sources and classes in 4 seconds
+2023.10.24 11:40:54 INFO  Trying to attach to remote debuggee VM localhost:48721 .
+2023.10.24 11:40:54 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 11:41:07 INFO  compiling root-test (1 scala source)
+2023.10.24 11:41:08 INFO  time: compiled root-test in 1.03s
+2023.10.24 11:41:10 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 1h 33m 3.951s)
+2023.10.24 11:41:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 11:41:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 11:41:10 INFO  Starting debug proxy for [Search]
+2023.10.24 11:41:10 INFO  Loaded expression compiler in 4 milliseconds
+2023.10.24 11:41:14 INFO  Loaded all sources and classes in 4 seconds
+2023.10.24 11:41:14 INFO  Trying to attach to remote debuggee VM localhost:40679 .
+2023.10.24 11:41:14 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 11:41:17 INFO  Closing debug server tcp://0.0.0.0:36871
+2023.10.24 11:41:17 INFO  Canceling debug proxy for [Search]
+2023.10.24 11:41:17 ERROR Build server error: Failed to initialize communication: Socket closed
+2023.10.24 11:41:17 ERROR Build server error: Read data from io exception: java.net.SocketException: Socket closed
+2023.10.24 11:41:20 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 1h 33m 13.636s)
+2023.10.24 11:41:20 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 1h 33m 13.653s)
+2023.10.24 11:41:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 11:41:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 11:41:20 INFO  Starting debug proxy for [Search]
+2023.10.24 11:41:20 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 11:41:26 INFO  Loaded all sources and classes in 6 seconds
+2023.10.24 11:41:26 INFO  Trying to attach to remote debuggee VM localhost:59645 .
+2023.10.24 11:41:26 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 11:41:26 INFO  Closing debug server tcp://0.0.0.0:45343
+2023.10.24 11:41:26 INFO  Canceling debug proxy for [Search]
+2023.10.24 11:41:35 INFO  Closing debug server tcp://0.0.0.0:41865
+2023.10.24 11:41:35 ERROR Build server error: Failed to initialize communication: Socket closed
+2023.10.24 11:41:35 INFO  Canceling debug proxy for [Search]
+2023.10.24 12:56:49 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 2h 48m 43.579s)
+2023.10.24 12:56:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 12:56:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 12:56:50 INFO  Starting debug proxy for [LinearSearch]
+2023.10.24 12:56:49 INFO  Loaded expression compiler in 7 milliseconds
+2023.10.24 12:56:52 INFO  Loaded all sources and classes in 2 seconds
+2023.10.24 12:56:52 INFO  Trying to attach to remote debuggee VM localhost:40089 .
+2023.10.24 12:56:52 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 12:56:52 INFO  Closing debug server tcp://0.0.0.0:43045
+2023.10.24 12:56:53 INFO  Canceling debug proxy for [LinearSearch]
+2023.10.24 12:57:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 12:57:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 12:57:00 INFO  Starting debug proxy for [Search()]
+2023.10.24 12:57:01 INFO  Trying to attach to remote debuggee VM localhost:49347 .
+2023.10.24 12:57:01 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 12:57:03 INFO  Closing debug server tcp://0.0.0.0:33125
+2023.10.24 12:57:03 INFO  Canceling debug proxy for [Search()]
+2023.10.24 12:57:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 12:57:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 12:57:13 INFO  Starting debug proxy for [Search()]
+2023.10.24 12:57:13 INFO  Trying to attach to remote debuggee VM localhost:34917 .
+2023.10.24 12:57:13 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 12:57:14 INFO  Canceling debug proxy for [Search()]
+2023.10.24 12:57:14 INFO  Closing debug server tcp://0.0.0.0:37591
+2023.10.24 12:57:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 12:57:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 12:57:32 INFO  Starting debug proxy for [Search(LinearSearch.search)]
+2023.10.24 12:57:32 INFO  Trying to attach to remote debuggee VM localhost:42695 .
+2023.10.24 12:57:32 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 12:57:34 INFO  Closing debug server tcp://0.0.0.0:34221
+2023.10.24 12:57:34 INFO  Canceling debug proxy for [Search(LinearSearch.search)]
+2023.10.24 12:57:43 INFO  compiling root-test (1 scala source)
+2023.10.24 12:57:43 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 2h 49m 37.147s)
+2023.10.24 12:57:43 INFO  compiling root-test (1 scala source)
+2023.10.24 12:57:45 INFO  time: compiled root-test in 1.79s
+2023.10.24 12:57:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 12:57:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 12:57:46 INFO  Starting debug proxy for [Search()]
+2023.10.24 12:57:46 INFO  Trying to attach to remote debuggee VM localhost:46345 .
+2023.10.24 12:57:46 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 12:57:48 INFO  Canceling debug proxy for [Search()]
+2023.10.24 12:57:48 INFO  Closing debug server tcp://0.0.0.0:41695
+2023.10.24 12:58:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 12:58:19 INFO  compiling root-test (1 scala source)
+2023.10.24 12:58:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 12:58:19 INFO  Starting debug proxy for [Search()]
+2023.10.24 12:58:19 WARN  Could not load snapshot text for /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala
+2023.10.24 12:58:19 INFO  Trying to attach to remote debuggee VM localhost:54315 .
+2023.10.24 12:58:19 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 12:58:20 INFO  time: compiled root-test in 1.71s
+2023.10.24 12:58:20 INFO  Closing debug server tcp://0.0.0.0:42693
+2023.10.24 12:58:21 INFO  Canceling debug proxy for [Search()]
+2023.10.24 12:58:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 12:58:33 INFO  compiling root-test (1 scala source)
+2023.10.24 12:58:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 12:58:33 INFO  Starting debug proxy for [Search()]
+2023.10.24 12:58:33 INFO  Trying to attach to remote debuggee VM localhost:40933 .
+2023.10.24 12:58:33 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 12:58:34 INFO  time: compiled root-test in 1.71s
+2023.10.24 12:58:35 INFO  Canceling debug proxy for [Search()]
+2023.10.24 12:58:34 INFO  Closing debug server tcp://0.0.0.0:43757
+2023.10.24 12:58:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 12:58:48 INFO  compiling root-test (1 scala source)
+2023.10.24 12:58:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 12:58:48 INFO  Starting debug proxy for [Search()]
+2023.10.24 12:58:48 WARN  Could not load snapshot text for /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/test/scala/SearchSpec.scala
+2023.10.24 12:58:48 INFO  Trying to attach to remote debuggee VM localhost:54291 .
+2023.10.24 12:58:48 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 12:58:50 INFO  time: compiled root-test in 1.86s
+2023.10.24 12:58:51 INFO  Canceling debug proxy for [Search()]
+2023.10.24 12:58:51 INFO  Closing debug server tcp://0.0.0.0:40003
+2023.10.24 12:59:15 INFO  compiling root (1 scala source)
+2023.10.24 12:59:15 INFO  time: compiled root in 99ms
+2023.10.24 12:59:21 INFO  compiling root (1 scala source)
+2023.10.24 12:59:21 INFO  time: compiled root in 97ms
+2023.10.24 12:59:21 INFO  compiling root (1 scala source)
+2023.10.24 12:59:21 INFO  time: compiled root in 0.14s
+2023.10.24 15:12:25 ERROR Failed to tokenize input for semantic tokens for /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/Search.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: Invalid literal number
+        result = 0result
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:330)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:332)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.24 15:13:16 INFO  compiling root (1 scala source)
+2023.10.24 15:13:16 INFO  time: compiled root in 0.88s
+2023.10.24 15:13:24 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 5h 5m 18.275s)
+2023.10.24 15:13:24 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 5h 5m 18.284s)
+2023.10.24 15:13:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 15:13:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 15:13:25 INFO  Starting debug proxy for [Search]
+2023.10.24 15:13:24 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 15:13:28 INFO  Loaded all sources and classes in 2 seconds
+2023.10.24 15:13:28 INFO  Trying to attach to remote debuggee VM localhost:60451 .
+2023.10.24 15:13:28 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 15:13:43 INFO  Closing debug server tcp://0.0.0.0:36137
+2023.10.24 15:13:43 INFO  Canceling debug proxy for [Search]
+2023.10.24 15:14:08 INFO  compiling root-test (1 scala source)
+2023.10.24 15:14:08 INFO  time: compiled root-test in 0.85s
+2023.10.24 15:14:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 15:14:10 INFO  compiling root (1 scala source)
+2023.10.24 15:14:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 15:14:11 INFO  Starting debug proxy for [Search()]
+2023.10.24 15:14:11 INFO  time: compiled root in 1.12s
+2023.10.24 15:14:11 INFO  Trying to attach to remote debuggee VM localhost:51247 .
+2023.10.24 15:14:11 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 15:14:13 INFO  Canceling debug proxy for [Search()]
+2023.10.24 15:14:13 INFO  Closing debug server tcp://0.0.0.0:33899
+2023.10.24 15:15:41 INFO  compiling root (1 scala source)
+2023.10.24 15:15:41 INFO  time: compiled root in 0.8s
+2023.10.24 15:15:43 INFO  compiling root-test (1 scala source)
+2023.10.24 15:15:44 INFO  time: compiled root-test in 1.14s
+2023.10.24 15:15:44 INFO  compiling root-test (1 scala source)
+2023.10.24 15:15:44 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 5h 7m 38.545s)
+2023.10.24 15:15:44 INFO  compiling root-test (1 scala source)
+2023.10.24 15:15:44 INFO  time: compiled root-test in 0.35s
+2023.10.24 15:15:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 15:15:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 15:15:45 INFO  Starting debug proxy for [Search()]
+2023.10.24 15:15:46 INFO  Trying to attach to remote debuggee VM localhost:56047 .
+2023.10.24 15:15:46 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 15:15:48 INFO  Canceling debug proxy for [Search()]
+2023.10.24 15:15:48 INFO  Closing debug server tcp://0.0.0.0:44167
+2023.10.24 15:17:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 15:17:12 INFO  compiling root (1 scala source)
+2023.10.24 15:17:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 15:17:12 INFO  Starting debug proxy for [Search()]
+2023.10.24 15:17:12 INFO  Trying to attach to remote debuggee VM localhost:46841 .
+2023.10.24 15:17:12 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 15:17:14 INFO  time: compiled root in 2.17s
+2023.10.24 15:17:15 INFO  Canceling debug proxy for [Search()]
+2023.10.24 15:17:15 INFO  Closing debug server tcp://0.0.0.0:41133
+2023.10.24 15:18:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 15:18:29 INFO  compiling root (1 scala source)
+2023.10.24 15:18:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 15:18:30 INFO  Starting debug proxy for [Search()]
+2023.10.24 15:18:29 INFO  Trying to attach to remote debuggee VM localhost:38875 .
+2023.10.24 15:18:29 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 15:18:31 INFO  time: compiled root in 1.94s
+2023.10.24 15:18:31 INFO  compiling root-test (1 scala source)
+2023.10.24 15:18:31 INFO  time: compiled root-test in 0.3s
+2023.10.24 15:18:33 ERROR Uncaught exception when running Search: java.lang.NoClassDefFoundError: LinearSearch$
+2023.10.24 15:18:33 ERROR Test suite aborted
+2023.10.24 15:18:33 INFO  Closing debug server tcp://0.0.0.0:36201
+2023.10.24 15:18:33 INFO  Canceling debug proxy for [Search()]
+2023.10.24 15:18:38 INFO  compiling root-test (1 scala source)
+2023.10.24 15:18:38 INFO  time: compiled root-test in 0.24s
+Oct 24, 2023 3:18:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.10.24 15:18:54 INFO  compiling root-test (1 scala source)
+2023.10.24 15:18:54 INFO  time: compiled root-test in 0.21s
+2023.10.24 15:19:04 INFO  compiling root-test (1 scala source)
+2023.10.24 15:19:04 INFO  time: compiled root-test in 0.17s
+Oct 24, 2023 3:19:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+Oct 24, 2023 3:20:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.10.24 15:20:42 INFO  compiling root-test (1 scala source)
+2023.10.24 15:20:42 INFO  time: compiled root-test in 0.3s
+2023.10.24 15:21:00 WARN  Using indexes to guess the definition of Search
+2023.10.24 15:21:01 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:01 INFO  time: compiled root-test in 0.1s
+2023.10.24 15:21:05 WARN  Using indexes to guess the definition of Search
+2023.10.24 15:21:09 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:09 INFO  time: compiled root-test in 0.1s
+2023.10.24 15:21:09 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:09 INFO  time: compiled root-test in 82ms
+2023.10.24 15:21:13 INFO  compiling root (1 scala source)
+2023.10.24 15:21:13 INFO  time: compiled root in 0.92s
+2023.10.24 15:21:19 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:19 INFO  time: compiled root-test in 0.15s
+2023.10.24 15:21:35 WARN  Using indexes to guess the definition of Search
+2023.10.24 15:21:35 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:35 INFO  time: compiled root-test in 0.11s
+2023.10.24 15:21:35 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:35 INFO  time: compiled root-test in 0.16s
+2023.10.24 15:21:35 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:35 INFO  time: compiled root-test in 88ms
+2023.10.24 15:21:35 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:37 INFO  time: compiled root-test in 0.14s
+2023.10.24 15:21:38 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:38 INFO  time: compiled root-test in 0.15s
+2023.10.24 15:21:43 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:43 INFO  time: compiled root-test in 0.14s
+2023.10.24 15:21:44 INFO  compiling root (1 scala source)
+2023.10.24 15:21:44 INFO  time: compiled root in 0.67s
+2023.10.24 15:21:45 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:45 INFO  time: compiled root-test in 0.14s
+2023.10.24 15:21:45 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:45 INFO  time: compiled root-test in 78ms
+2023.10.24 15:21:45 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:45 INFO  time: compiled root-test in 85ms
+2023.10.24 15:21:46 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:46 INFO  time: compiled root-test in 61ms
+2023.10.24 15:21:51 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:51 INFO  time: compiled root-test in 0.1s
+Oct 24, 2023 3:21:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.10.24 15:21:58 INFO  compiling root-test (1 scala source)
+2023.10.24 15:21:58 INFO  time: compiled root-test in 0.12s
+2023.10.24 15:22:01 INFO  compiling root-test (1 scala source)
+2023.10.24 15:22:01 INFO  time: compiled root-test in 0.14s
+Oct 24, 2023 3:22:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+2023.10.24 15:22:23 INFO  compiling root (1 scala source)
+2023.10.24 15:22:25 INFO  time: compiled root in 1.68s
+2023.10.24 15:22:25 INFO  compiling root-test (1 scala source)
+2023.10.24 15:22:25 INFO  time: compiled root-test in 0.19s
+2023.10.24 15:22:26 INFO  compiling root-test (1 scala source)
+2023.10.24 15:22:26 INFO  time: compiled root-test in 0.62s
+2023.10.24 15:22:52 INFO  compiling root-test (1 scala source)
+2023.10.24 15:22:52 INFO  time: compiled root-test in 0.7s
+2023.10.24 15:23:22 INFO  compiling root (1 scala source)
+2023.10.24 15:23:22 INFO  time: compiled root in 0.66s
+2023.10.24 15:23:24 INFO  compiling root-test (1 scala source)
+2023.10.24 15:23:24 INFO  time: compiled root-test in 0.12s
+2023.10.24 15:23:24 INFO  compiling root-test (1 scala source)
+2023.10.24 15:23:25 INFO  time: compiled root-test in 0.33s
+2023.10.24 15:23:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 15:23:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 15:23:27 INFO  Starting debug proxy for [Searches()]
+2023.10.24 15:23:27 INFO  Trying to attach to remote debuggee VM localhost:53561 .
+2023.10.24 15:23:27 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 15:23:29 INFO  Canceling debug proxy for [Searches()]
+2023.10.24 15:23:29 INFO  Closing debug server tcp://0.0.0.0:34185
+2023.10.24 15:27:05 INFO  compiling root (1 scala source)
+2023.10.24 15:27:05 INFO  time: compiled root in 0.1s
+Oct 24, 2023 4:16:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5744
+Oct 24, 2023 4:20:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6074
+2023.10.24 16:22:14 INFO  compiling root (1 scala source)
+2023.10.24 16:22:14 INFO  time: compiled root in 0.11s
+2023.10.24 16:22:22 INFO  compiling root (1 scala source)
+2023.10.24 16:22:22 INFO  time: compiled root in 0.81s
+2023.10.24 16:22:37 INFO  compiling root (1 scala source)
+2023.10.24 16:22:37 INFO  time: compiled root in 0.1s
+2023.10.24 16:22:37 INFO  compiling root (1 scala source)
+2023.10.24 16:22:37 INFO  time: compiled root in 0.12s
+2023.10.24 16:24:34 INFO  compiling root (1 scala source)
+2023.10.24 16:24:34 INFO  time: compiled root in 0.84s
+2023.10.24 16:24:46 INFO  compiling root (1 scala source)
+2023.10.24 16:24:46 INFO  time: compiled root in 0.7s
+2023.10.24 16:25:24 INFO  compiling root (1 scala source)
+2023.10.24 16:25:24 INFO  time: compiled root in 0.83s
+2023.10.24 16:26:46 INFO  compiling root-test (1 scala source)
+2023.10.24 16:26:46 INFO  time: compiled root-test in 0.83s
+2023.10.24 16:26:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:26:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:26:48 INFO  Starting debug proxy for [Searches()]
+2023.10.24 16:26:48 INFO  Trying to attach to remote debuggee VM localhost:39909 .
+2023.10.24 16:26:48 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:26:50 INFO  Canceling debug proxy for [Searches()]
+2023.10.24 16:26:50 INFO  Closing debug server tcp://0.0.0.0:42269
+2023.10.24 16:27:12 INFO  compiling root (1 scala source)
+2023.10.24 16:27:12 INFO  time: compiled root in 0.72s
+2023.10.24 16:27:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:27:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:27:24 INFO  Starting debug proxy for [Searches()]
+2023.10.24 16:27:24 INFO  Trying to attach to remote debuggee VM localhost:43795 .
+2023.10.24 16:27:24 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:27:25 INFO  Closing debug server tcp://0.0.0.0:36273
+2023.10.24 16:27:25 INFO  Canceling debug proxy for [Searches()]
+2023.10.24 16:28:04 INFO  compiling root (1 scala source)
+2023.10.24 16:28:04 INFO  time: compiled root in 0.76s
+2023.10.24 16:28:29 INFO  compiling root (1 scala source)
+2023.10.24 16:28:29 INFO  time: compiled root in 0.11s
+2023.10.24 16:28:29 INFO  compiling root (1 scala source)
+2023.10.24 16:28:29 INFO  time: compiled root in 68ms
+2023.10.24 16:29:23 INFO  compiling root (1 scala source)
+2023.10.24 16:29:23 INFO  time: compiled root in 63ms
+2023.10.24 16:29:23 INFO  compiling root (1 scala source)
+2023.10.24 16:29:23 INFO  time: compiled root in 30ms
+2023.10.24 16:30:05 INFO  compiling root (1 scala source)
+2023.10.24 16:30:05 INFO  time: compiled root in 0.13s
+2023.10.24 16:30:05 INFO  compiling root (1 scala source)
+2023.10.24 16:30:05 INFO  time: compiled root in 0.15s
+2023.10.24 16:30:13 INFO  compiling root (1 scala source)
+2023.10.24 16:30:13 INFO  time: compiled root in 84ms
+2023.10.24 16:30:13 INFO  compiling root (1 scala source)
+2023.10.24 16:30:13 INFO  time: compiled root in 53ms
+2023.10.24 16:30:20 INFO  compiling root (1 scala source)
+2023.10.24 16:30:20 INFO  time: compiled root in 0.15s
+2023.10.24 16:30:20 INFO  compiling root (1 scala source)
+2023.10.24 16:30:20 INFO  time: compiled root in 89ms
+2023.10.24 16:30:33 ERROR Failed to tokenize input for semantic tokens for /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/Search.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed character literal
+    var result = (0, 0, '');
+                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.24 16:30:33 ERROR Failed to tokenize input for semantic tokens for /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/src/main/scala/Search.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed character literal
+    var result = (0, 0, '');
+                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.10.24 16:30:36 INFO  compiling root (1 scala source)
+2023.10.24 16:30:36 INFO  time: compiled root in 0.12s
+2023.10.24 16:30:36 INFO  compiling root (1 scala source)
+2023.10.24 16:30:36 INFO  time: compiled root in 0.14s
+2023.10.24 16:30:46 INFO  compiling root (1 scala source)
+2023.10.24 16:30:46 INFO  time: compiled root in 79ms
+2023.10.24 16:30:46 INFO  compiling root (1 scala source)
+2023.10.24 16:30:46 INFO  time: compiled root in 69ms
+2023.10.24 16:33:10 INFO  compiling root (1 scala source)
+2023.10.24 16:33:10 INFO  time: compiled root in 92ms
+2023.10.24 16:33:10 INFO  compiling root (1 scala source)
+2023.10.24 16:33:10 INFO  time: compiled root in 77ms
+2023.10.24 16:33:10 INFO  compiling root (1 scala source)
+2023.10.24 16:33:10 INFO  time: compiled root in 70ms
+2023.10.24 16:33:18 INFO  compiling root (1 scala source)
+2023.10.24 16:33:18 INFO  time: compiled root in 84ms
+2023.10.24 16:33:18 INFO  compiling root (1 scala source)
+2023.10.24 16:33:18 INFO  time: compiled root in 93ms
+2023.10.24 16:33:20 INFO  compiling root (1 scala source)
+2023.10.24 16:33:20 INFO  time: compiled root in 0.12s
+2023.10.24 16:33:20 INFO  compiling root (1 scala source)
+2023.10.24 16:33:20 INFO  time: compiled root in 78ms
+2023.10.24 16:33:30 INFO  compiling root (1 scala source)
+2023.10.24 16:33:30 INFO  time: compiled root in 98ms
+2023.10.24 16:33:30 INFO  compiling root (1 scala source)
+2023.10.24 16:33:30 INFO  time: compiled root in 68ms
+2023.10.24 16:33:34 INFO  compiling root (1 scala source)
+2023.10.24 16:33:34 INFO  time: compiled root in 0.78s
+2023.10.24 16:35:23 INFO  compiling root (1 scala source)
+2023.10.24 16:35:23 INFO  time: compiled root in 0.82s
+2023.10.24 16:35:27 INFO  compiling root-test (1 scala source)
+2023.10.24 16:35:27 INFO  time: compiled root-test in 0.75s
+2023.10.24 16:35:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:35:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:35:33 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:35:33 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 16:35:34 INFO  Loaded all sources and classes in 1 second
+2023.10.24 16:35:34 INFO  Trying to attach to remote debuggee VM localhost:53239 .
+2023.10.24 16:35:34 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:35:36 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:35:36 INFO  Closing debug server tcp://0.0.0.0:45465
+2023.10.24 16:35:40 INFO  compiling root-test (1 scala source)
+2023.10.24 16:35:40 INFO  time: compiled root-test in 0.62s
+2023.10.24 16:35:41 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 6h 27m 35.389s)
+2023.10.24 16:35:41 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 6h 27m 35.402s)
+2023.10.24 16:35:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:35:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:35:42 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:35:41 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 16:35:43 INFO  Loaded all sources and classes in 1 second
+2023.10.24 16:35:43 INFO  Trying to attach to remote debuggee VM localhost:41995 .
+2023.10.24 16:35:43 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:35:44 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:35:44 INFO  Closing debug server tcp://0.0.0.0:44887
+2023.10.24 16:35:56 INFO  compiling root-test (1 scala source)
+2023.10.24 16:35:56 INFO  time: compiled root-test in 0.85s
+2023.10.24 16:35:58 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 6h 27m 52.263s)
+2023.10.24 16:35:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:35:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:35:59 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:35:58 INFO  Loaded expression compiler in 4 milliseconds
+2023.10.24 16:36:02 INFO  Loaded all sources and classes in 2 seconds
+2023.10.24 16:36:02 INFO  Trying to attach to remote debuggee VM localhost:55591 .
+2023.10.24 16:36:02 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:36:03 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:36:03 INFO  Closing debug server tcp://0.0.0.0:33593
+2023.10.24 16:36:08 INFO  compiling root-test (1 scala source)
+2023.10.24 16:36:08 INFO  time: compiled root-test in 0.72s
+2023.10.24 16:36:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:36:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:36:09 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:36:09 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 16:36:10 INFO  Loaded all sources and classes in 1 second
+2023.10.24 16:36:10 INFO  Trying to attach to remote debuggee VM localhost:44031 .
+2023.10.24 16:36:10 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:36:11 INFO  Closing debug server tcp://0.0.0.0:40757
+2023.10.24 16:36:11 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:37:39 INFO  compiling root (1 scala source)
+2023.10.24 16:37:39 INFO  time: compiled root in 0.11s
+2023.10.24 16:37:49 INFO  compiling root (1 scala source)
+2023.10.24 16:37:49 INFO  time: compiled root in 0.12s
+2023.10.24 16:38:15 INFO  compiling root (1 scala source)
+2023.10.24 16:38:15 INFO  time: compiled root in 0.22s
+2023.10.24 16:38:15 INFO  compiling root (1 scala source)
+2023.10.24 16:38:15 INFO  time: compiled root in 0.12s
+Oct 24, 2023 4:38:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7246
+2023.10.24 16:38:43 INFO  compiling root (1 scala source)
+2023.10.24 16:38:43 INFO  time: compiled root in 67ms
+2023.10.24 16:38:45 INFO  compiling root (1 scala source)
+2023.10.24 16:38:45 INFO  time: compiled root in 57ms
+2023.10.24 16:38:48 INFO  compiling root (1 scala source)
+2023.10.24 16:38:48 INFO  time: compiled root in 89ms
+2023.10.24 16:38:48 INFO  compiling root (1 scala source)
+2023.10.24 16:38:48 INFO  time: compiled root in 70ms
+2023.10.24 16:39:03 INFO  compiling root (1 scala source)
+2023.10.24 16:39:03 INFO  time: compiled root in 0.1s
+2023.10.24 16:39:11 INFO  compiling root (1 scala source)
+2023.10.24 16:39:11 INFO  time: compiled root in 0.88s
+2023.10.24 16:39:16 INFO  compiling root (1 scala source)
+2023.10.24 16:39:16 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 6h 31m 10.693s)
+2023.10.24 16:39:16 INFO  compiling root (1 scala source)
+2023.10.24 16:39:16 INFO  time: compiled root in 0.76s
+2023.10.24 16:39:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:39:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:39:18 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:39:18 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 16:39:19 INFO  Loaded all sources and classes in 1 second
+2023.10.24 16:39:19 INFO  Trying to attach to remote debuggee VM localhost:40653 .
+2023.10.24 16:39:19 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:39:20 INFO  Closing debug server tcp://0.0.0.0:39311
+2023.10.24 16:39:20 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:39:27 INFO  compiling root-test (1 scala source)
+2023.10.24 16:39:27 INFO  time: compiled root-test in 0.6s
+2023.10.24 16:39:27 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 6h 31m 22.224s)
+2023.10.24 16:39:27 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 6h 31m 22.23s)
+2023.10.24 16:39:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:39:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:39:28 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:39:28 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 16:39:29 INFO  Loaded all sources and classes in 1 second
+2023.10.24 16:39:29 INFO  Trying to attach to remote debuggee VM localhost:53013 .
+2023.10.24 16:39:29 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:39:31 INFO  Closing debug server tcp://0.0.0.0:41575
+2023.10.24 16:39:31 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:40:04 INFO  compiling root (1 scala source)
+2023.10.24 16:40:04 INFO  time: compiled root in 0.8s
+Oct 24, 2023 4:41:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7503
+Oct 24, 2023 4:43:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7810
+2023.10.24 16:44:13 INFO  compiling root (1 scala source)
+2023.10.24 16:44:13 INFO  time: compiled root in 0.74s
+2023.10.24 16:44:43 INFO  compiling root (1 scala source)
+2023.10.24 16:44:43 INFO  time: compiled root in 0.72s
+2023.10.24 16:44:49 INFO  compiling root (1 scala source)
+2023.10.24 16:44:49 INFO  time: compiled root in 0.82s
+2023.10.24 16:45:26 INFO  compiling root-test (1 scala source)
+2023.10.24 16:45:26 INFO  time: compiled root-test in 0.12s
+2023.10.24 16:45:26 INFO  compiling root-test (1 scala source)
+2023.10.24 16:45:26 INFO  time: compiled root-test in 0.15s
+2023.10.24 16:45:38 INFO  compiling root (1 scala source)
+2023.10.24 16:45:38 INFO  time: compiled root in 0.75s
+2023.10.24 16:45:38 INFO  compiling root-test (1 scala source)
+2023.10.24 16:45:39 INFO  time: compiled root-test in 0.17s
+2023.10.24 16:45:50 INFO  compiling root-test (1 scala source)
+2023.10.24 16:45:50 INFO  time: compiled root-test in 0.1s
+2023.10.24 16:45:59 INFO  compiling root-test (1 scala source)
+2023.10.24 16:45:59 INFO  time: compiled root-test in 0.86s
+2023.10.24 16:46:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:46:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:46:01 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:46:01 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 16:46:03 INFO  Loaded all sources and classes in 1 second
+2023.10.24 16:46:03 INFO  Trying to attach to remote debuggee VM localhost:44619 .
+2023.10.24 16:46:03 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:46:04 INFO  Closing debug server tcp://0.0.0.0:39183
+2023.10.24 16:46:04 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:46:39 INFO  compiling root-test (1 scala source)
+2023.10.24 16:46:39 INFO  time: compiled root-test in 0.72s
+2023.10.24 16:46:41 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 6h 38m 35.069s)
+2023.10.24 16:46:41 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 6h 38m 35.08s)
+2023.10.24 16:46:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:46:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:46:41 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:46:41 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 16:46:43 INFO  Loaded all sources and classes in 1 second
+2023.10.24 16:46:43 INFO  Trying to attach to remote debuggee VM localhost:41085 .
+2023.10.24 16:46:43 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:46:44 INFO  compiling root-test (1 scala source)
+2023.10.24 16:46:44 INFO  Closing debug server tcp://0.0.0.0:40305
+2023.10.24 16:46:44 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:46:45 INFO  time: compiled root-test in 1.01s
+2023.10.24 16:46:57 INFO  compiling root-test (1 scala source)
+2023.10.24 16:46:59 INFO  time: compiled root-test in 1.76s
+2023.10.24 16:47:01 INFO  compiling root-test (1 scala source)
+2023.10.24 16:47:01 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 6h 38m 55.578s)
+2023.10.24 16:47:01 INFO  compiling root-test (1 scala source)
+2023.10.24 16:47:01 INFO  time: compiled root-test in 0.64s
+2023.10.24 16:47:02 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:47:02 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:47:03 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:47:03 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 16:47:04 INFO  Loaded all sources and classes in 1 second
+2023.10.24 16:47:04 INFO  Trying to attach to remote debuggee VM localhost:32919 .
+2023.10.24 16:47:04 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:47:06 INFO  Closing debug server tcp://0.0.0.0:38847
+2023.10.24 16:47:06 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:47:20 INFO  compiling root-test (1 scala source)
+2023.10.24 16:47:20 INFO  time: compiled root-test in 0.7s
+2023.10.24 16:47:43 INFO  compiling root-test (1 scala source)
+2023.10.24 16:47:43 INFO  time: compiled root-test in 0.11s
+2023.10.24 16:47:43 INFO  compiling root-test (1 scala source)
+2023.10.24 16:47:43 INFO  time: compiled root-test in 0.15s
+2023.10.24 16:47:47 INFO  compiling root-test (1 scala source)
+2023.10.24 16:47:47 INFO  time: compiled root-test in 95ms
+2023.10.24 16:47:47 INFO  compiling root-test (1 scala source)
+2023.10.24 16:47:47 INFO  time: compiled root-test in 0.1s
+2023.10.24 16:47:49 INFO  compiling root-test (1 scala source)
+2023.10.24 16:47:49 INFO  time: compiled root-test in 0.12s
+2023.10.24 16:47:55 INFO  compiling root-test (1 scala source)
+2023.10.24 16:47:55 INFO  time: compiled root-test in 0.14s
+2023.10.24 16:47:55 INFO  compiling root-test (1 scala source)
+2023.10.24 16:47:55 INFO  time: compiled root-test in 0.25s
+2023.10.24 16:47:55 INFO  compiling root-test (1 scala source)
+Oct 24, 2023 4:47:56 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.10.24 16:47:55 INFO  time: compiled root-test in 0.13s
+2023.10.24 16:48:14 INFO  compiling root-test (1 scala source)
+2023.10.24 16:48:14 INFO  time: compiled root-test in 0.12s
+2023.10.24 16:48:14 INFO  compiling root-test (1 scala source)
+2023.10.24 16:48:14 INFO  time: compiled root-test in 0.16s
+2023.10.24 16:48:17 INFO  compiling root-test (1 scala source)
+2023.10.24 16:48:17 INFO  time: compiled root-test in 0.16s
+Oct 24, 2023 4:48:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 more
+
+Oct 24, 2023 4:48:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:925)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:467)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.10.24 16:48:22 INFO  compiling root-test (1 scala source)
+2023.10.24 16:48:22 INFO  time: compiled root-test in 0.13s
+2023.10.24 16:48:32 INFO  compiling root-test (1 scala source)
+2023.10.24 16:48:32 INFO  time: compiled root-test in 0.75s
+2023.10.24 16:48:33 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 6h 40m 27.342s)
+2023.10.24 16:48:33 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 6h 40m 27.351s)
+2023.10.24 16:48:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:48:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:48:34 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:48:33 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 16:48:35 INFO  Loaded all sources and classes in 1 second
+2023.10.24 16:48:35 INFO  Trying to attach to remote debuggee VM localhost:59101 .
+2023.10.24 16:48:35 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:48:36 INFO  Closing debug server tcp://0.0.0.0:38493
+2023.10.24 16:48:36 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:48:58 INFO  compiling root-test (1 scala source)
+2023.10.24 16:48:58 INFO  time: compiled root-test in 0.7s
+2023.10.24 16:49:08 INFO  compiling root-test (1 scala source)
+2023.10.24 16:49:08 INFO  time: compiled root-test in 0.12s
+2023.10.24 16:49:08 INFO  compiling root-test (1 scala source)
+2023.10.24 16:49:08 INFO  time: compiled root-test in 97ms
+2023.10.24 16:49:15 WARN  Using indexes to guess the definition of linear
+2023.10.24 16:49:27 INFO  compiling root-test (1 scala source)
+2023.10.24 16:49:27 INFO  time: compiled root-test in 0.79s
+2023.10.24 16:49:34 INFO  compiling root-test (1 scala source)
+2023.10.24 16:49:34 INFO  time: compiled root-test in 0.67s
+2023.10.24 16:49:45 INFO  compiling root-test (1 scala source)
+2023.10.24 16:49:45 INFO  time: compiled root-test in 0.72s
+2023.10.24 16:49:46 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.1.0' (since 6h 41m 40.559s)
+2023.10.24 16:49:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-server.trace.json or /home/ariane/.cache/metals/dap-server.trace.json
+2023.10.24 16:49:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/.metals/dap-client.trace.json or /home/ariane/.cache/metals/dap-client.trace.json
+2023.10.24 16:49:47 INFO  Starting debug proxy for [Searches]
+2023.10.24 16:49:46 INFO  Loaded expression compiler in 1 millisecond
+2023.10.24 16:49:48 INFO  Loaded all sources and classes in 1 second
+2023.10.24 16:49:48 INFO  Trying to attach to remote debuggee VM localhost:34031 .
+2023.10.24 16:49:48 INFO  Attaching to debuggee VM succeeded.
+2023.10.24 16:49:49 INFO  Closing debug server tcp://0.0.0.0:34565
+2023.10.24 16:49:49 INFO  Canceling debug proxy for [Searches]
+2023.10.24 16:52:35 INFO  compiling root (1 scala source)
+2023.10.24 16:52:35 INFO  time: compiled root in 0.89s

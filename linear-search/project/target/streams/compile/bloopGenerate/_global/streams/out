@@ -1,0 +1,4 @@
+[debug] [linear-search-build] Classpath dependencies List()
+[debug] [linear-search-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'linear-search-build' to '/home/ariane/Ariane/Development/Scala-Projects/search-algorithms/linear-search/project/.bloop/linear-search-build.json'
+[success] Generated .bloop/linear-search-build.json
