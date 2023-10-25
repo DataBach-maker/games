@@ -1,6 +1,14 @@
 object Search extends App {
 
-  // first attempt: could be more functional
+  /**
+   * Linear search algorithm that iterates through the array and compares each element to the search term.
+   * Note: Could be more Functional by using a recursive function.
+   *
+   * @param term The array of integers to search.
+   * @param searchTerm The integer to search for.
+   * @return A tuple of the found value and its index, or a string indicating that the value could not be found.
+   */
+
   def linar_noCheatCode(term: Array[Int], searchTerm: Int): Any = {
 
     var foundValueAndIndex        = (0, 0);
@@ -18,6 +26,15 @@ object Search extends App {
     }
 
   }
+
+  /**
+   * Optimized linear search algorithm that uses the `find` method to search for the integer.
+   *
+   * @param term The array of integers to search.
+   * @param searchTerm The integer to search for.
+   * @return A tuple of the found value and its index, or a string indicating that the value could not be found.
+   */
+
   def linear_optimized(term: Array[Int], searchTerm: Int): Any = {
 
     term.zipWithIndex.find(_._1 == searchTerm) match {
@@ -26,6 +43,14 @@ object Search extends App {
     }
 
   }
+
+  /**
+   * Binary search algorithm that assumes the array is sorted and uses a divide-and-conquer approach to find the search term.
+   *
+   * @param term The array of integers to search.
+   * @param searchTerm The integer to search for.
+   * @return A tuple of the found value and its index, or a string indicating that the value could not be found.
+   */
 
   def binary_noCheatCode(term: Array[Int], searchTerm: Int): Any = {
 
@@ -59,6 +84,14 @@ object Search extends App {
     couldNotFindValueAndIndex
   }
 
+  /**
+   * Optimized binary search algorithm that assumes the array is sorted and uses the `binarySearch` method to find the search term.
+   *
+   * @param term The array of integers to search.
+   * @param searchTerm The integer to search for.
+   * @return A tuple of the found value and its index, or a string indicating that the value could not be found.
+   */
+  
   def binary_optimized(term: Array[Int], searchTerm: Int): Any = {
     val sortedTerm = term.sorted
     val index      = java.util.Arrays.binarySearch(sortedTerm, searchTerm)

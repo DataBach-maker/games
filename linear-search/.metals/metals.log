@@ -4049,3 +4049,7 @@ Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsExcepti
 2023.10.25 09:10:07 INFO  time: compiled root in 1.33s
 2023.10.25 09:10:17 INFO  compiling root (1 scala source)
 2023.10.25 09:10:18 INFO  time: compiled root in 1.2s
+2023.10.25 09:30:58 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 35m 32.474s)
+2023.10.25 09:30:58 INFO  compiling root (1 scala source)
+2023.10.25 09:30:58 INFO  compiling root (1 scala source)
+2023.10.25 09:31:00 INFO  time: compiled root in 1.66s
