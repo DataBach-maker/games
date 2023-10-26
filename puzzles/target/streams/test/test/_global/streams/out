@@ -1,0 +1,22 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PuzzleSpec, org.scalatest.tools.Framework$$anon$1@2b31ee7d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SearchSpec, org.scalatest.tools.Framework$$anon$1@2b31ee7d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSearchSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSearch[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct result for no-cheat Code linear search[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct result for no-cheat Code binary search[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct result for optimized linear search[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct result for optimized binary search[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPuzzleSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSearch[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct result for no-cheat Code linear search[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct result for no-cheat Code binary search[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct result for optimized linear search[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the correct result for optimized binary search[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 602 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SearchSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PuzzleSpec[0m

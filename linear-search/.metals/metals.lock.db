@@ -1,6 +1,0 @@
-#FileLock
-#Wed Oct 25 08:29:50 CEST 2023
-server=localhost\:36525
-hostName=localhost
-method=file
-id=18b65866e5b2a83e78ec1684249b821eec1fd0097c4
