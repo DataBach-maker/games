@@ -1,0 +1,4 @@
+[debug] [search-build] Classpath dependencies List()
+[debug] [search-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'search-build' to '/home/ariane/Ariane/Development/Scala-Projects/algorithms/search/project/.bloop/search-build.json'
+[success] Generated .bloop/search-build.json

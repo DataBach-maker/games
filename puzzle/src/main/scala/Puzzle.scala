@@ -1,0 +1,3 @@
+object Puzzle extends App {
+
+}

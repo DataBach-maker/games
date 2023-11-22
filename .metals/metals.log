@@ -1,0 +1,60 @@
+2023.11.22 19:35:03 INFO  Started: Metals version 1.1.0 in folders '/home/ariane/Ariane/Development/Scala-Projects/algorithms' for client Visual Studio Code 1.84.2.
+2023.11.22 19:35:04 INFO  Attempting to connect to the build server...
+2023.11.22 19:35:04 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/ariane/.bloop/bloop.json
+2023.11.22 19:35:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/algorithms/.metals/bsp.trace.json or /home/ariane/.cache/metals/bsp.trace.json
+2023.11.22 19:35:14 INFO  no build target found for /home/ariane/Ariane/Development/Scala-Projects/algorithms/search/src/main/scala/Search.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.22 19:35:17 INFO  time: Connected to build server in 13s
+2023.11.22 19:35:17 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.22 19:35:17 INFO  time: Imported build in 0.24s
+2023.11.22 19:35:23 INFO  time: indexed workspace in 4.95s
+2023.11.22 19:35:24 INFO  compiling root (1 scala source)
+2023.11.22 19:35:33 INFO  compiling root-test (1 scala source)
+2023.11.22 19:35:33 INFO  time: compiled root in 8.93s
+2023.11.22 19:35:35 INFO  time: compiled root-test in 2.11s
+2023.11.22 19:49:40 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/search/build.sbt
+2023.11.22 19:49:46 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/build.sbt
+2023.11.22 19:50:44 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/main/scala/Search.scala
+2023.11.22 19:51:06 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/main/scala/Search.scala
+2023.11.22 19:51:27 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/test/scala/SearchSpec.scala
+Nov 22, 2023 7:57:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/ariane/Ariane/Development/Scala-Projects/algorithms/.metals/.reports/metals-full/2023-11-22/r_compiler-error_19-57-38-047.md
+2023.11.22 19:57:52 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/main/scala/Search.scala
+2023.11.22 19:57:52 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/main/scala/Search.scala
+Nov 22, 2023 7:57:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/main/scala/Search.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/main/scala/Search.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/main/scala/Search.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.11.22 19:58:42 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/main/scala/Puzzle.scala
+2023.11.22 19:58:50 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/test/scala/PuzzleSpec.scala
+2023.11.22 20:11:00 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/build.sbt
+2023.11.22 20:11:25 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/test/scala/PuzzleSpec.scala
+2023.11.22 20:11:27 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/test/scala/PuzzleSpec.scala
+2023.11.22 20:11:29 WARN  no build target for: /home/ariane/Ariane/Development/Scala-Projects/algorithms/puzzle/src/test/scala/PuzzleSpec.scala
