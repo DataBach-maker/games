@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="bsp 1" modules="algorithms">
+      <parameters>
+        <parameter value="-P:semanticdb:sourceroot:/home/ariane/Ariane/Development/Scala-Projects/algorithms" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:failures:warning" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Xplugin-require:semanticdb" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.cache/bloop/semanticdb/org.scalameta.semanticdb-scalac_2.12.18.4.8.12/semanticdb-scalac_2.12.18-4.8.12.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
