@@ -1,0 +1,16 @@
+2023.11.22 20:50:20 INFO  Started: Metals version 1.1.0 in folders '/home/ariane/Ariane/Development/Scala-Projects/algorithms' for client Visual Studio Code 1.84.2.
+2023.11.22 20:50:21 INFO  Attempting to connect to the build server...
+2023.11.22 20:50:21 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/ariane/.bloop/bloop.json
+2023.11.22 20:50:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ariane/Ariane/Development/Scala-Projects/algorithms/.metals/bsp.trace.json or /home/ariane/.cache/metals/bsp.trace.json
+2023.11.22 20:50:21 INFO  time: Connected to build server in 0.64s
+2023.11.22 20:50:22 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.22 20:50:22 INFO  time: Imported build in 0.1s
+2023.11.22 20:50:27 INFO  time: indexed workspace in 5.46s
+2023.11.22 20:50:36 INFO  
+2023.11.22 20:50:36 INFO  Template applied in /home/ariane/Ariane/Development/Scala-Projects/algorithms/./scalatest-example
+2023.11.22 20:50:36 INFO  
+2023.11.22 20:50:36 INFO  time: ran 'giter8.Giter8' in 3.57s
+2023.11.22 20:50:42 INFO  Shutting down server
+2023.11.22 20:50:42 INFO  shutting down Metals
+2023.11.22 20:50:42 INFO  Shut down connection with build server.
+2023.11.22 20:50:42 INFO  Exiting server
