@@ -1,4 +1,4 @@
-object Search extends App {
+object SearchTerms extends App {
 
   /**
    * Linear search algorithm that iterates through the array and compares each element to the search term.
